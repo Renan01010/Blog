@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Pessoal - Programador</title>
+  
+  <!-- Fonte Monoespaçada -->
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome para ícones -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+  <!-- Highlight.js para código -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/monokai.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0d0d0d;
+      background-image: url('https://static.vecteezy.com/ti/fotos-gratis/p2/3334890-desktop-source-code-and-wallpaper-by-coding-and-programming-gratis-foto.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      font-family: 'Fira Code', monospace;
+      color: #00ffcc;
+    }
+
+    header {
+      background-color: rgba(50, 50, 50, 0.9);
+      text-align: center;
+      padding: 30px 20px;
+      box-shadow: 0 0 10px #00ffcc;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      text-shadow: 0 0 8px #00ffcc, 0 0 15px #00ffcc;
+    }
+
+    nav a {
+      color: #00ffcc;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+      text-shadow: 0 0 10px #00ffcc;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(0, 0, 0, 0.85);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 0 20px #00ffcc;
+      text-align: center;
+    }
+
+    .botao {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 20px;
+      border: 2px solid #00ffcc;
+      border-radius: 8px;
+      color: #00ffcc;
+      background: none;
+      transition: 0.3s;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .botao:hover {
+      background-color: #00ffcc;
+      color: #000;
+    }
+
+    .social {
+      margin-top: 20px;
+    }
+
+    .social a {
+      color: #00ffcc;
+      margin: 0 10px;
+      font-size: 1.5rem;
+      transition: 0.3s;
+    }
+
+    .social a:hover {
+      color: #ffffff;
+      text-shadow: 0 0 10px #00ffcc;
+    }
+
+    pre {
+      text-align: left;
+      margin-top: 30px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>BEM-VINDO AO MEU BLOG</h1>
+    <nav>
+      <a href="#">Login</a>
+      <a href="#">Projetos</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <p>Essa é uma página ainda em desenvolvimento para acompanhar minhas evoluções na área da programação!</p>
+
+    <a href="#" class="botao">Sobre o Criador</a>
+
+    <div class="social">
+      <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+
+    <pre><code class="language-python">
+# Exemplo de código Python
+def saudacao(nome):
+    return f"Olá, {nome}! Seja bem-vindo ao blog."
+
+print(saudacao("Renan"))
+    </code></pre>
+  </div>
+</body>
+</html>

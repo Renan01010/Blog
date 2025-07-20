@@ -15,9 +15,12 @@
     </h1>
     <div class="corpo">
         <p>BEM VINDO AO MEU BLOG</p>
+        <a href="login.php" alt="Login" class="login">Login</a>
     </div>
-    <div class="login">
-        <h2>Login</h2>
+
+    <div class="criador_2">
+        <p>Essa é uma pagina ainda em desenvolvimento para aconpanhar minhas evoluções na
+            area da programação!.</p>
     </div>
 
 <div class="form">
