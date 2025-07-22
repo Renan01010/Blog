@@ -50,5 +50,15 @@
         echo "</div>";
     }
 ?>
+<!-- <footer>
+    <div>
+        <p>Ola esses são minhas redes sociais</p>
+        <ul>
+            <li><a href="www.com.br" target="">rede</a></li>
+            <li>whatsapp</li>
+            <li>Telegram</li>
+        </ul>
+    </div>
+</footer> -->
 </body>
 </html>
