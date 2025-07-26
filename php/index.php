@@ -21,8 +21,18 @@
     <div class="criador_2">
         <p>Essa é uma pagina ainda em desenvolvimento para aconpanhar minhas evoluções na
             area da programação!.</p>
+        <p>Não é necessario criar login para ver as postagens do criador, porem caso queira criar sua 
+            propria postagem é necessario e realizar comentarios</p>
+
+        <p>Essa pagina é dedicada apenas para conteduo educativo</p>
+
+        <div>
+            <a href="blog.php" class="blog">Blog</a>
+        </div>
+
     </div>
 
+    
 <div class="form">
     <form method="post" action="">
         <button class="buton" type="submit" name="sobre">Sobre o criador</button>

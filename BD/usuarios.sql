@@ -1,0 +1,22 @@
+CREATE DATABASE blog;
+USE blog;
+
+-- ESSA É A PARTE DOS USÚARIOS
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT Primary KEY,
+    usuario VARCHAR(100) NOT NULL UNIQUE,
+    senha  VARCHAR(255) NOT NULL
+);
+
+-- ESSA É A PARTE DAS POSTAGENS 
+CREATE TABLE postagens (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    titulo VARCHAR(255),
+    texto TEXT,
+    imagem VARCHAR(255),
+    indice VARCHAR(100),
+    data_postagem TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO usuarios(usuarios,senha) VALUES ('RENAN TELES', 'RENANTELES');
+
