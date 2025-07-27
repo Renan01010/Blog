@@ -1,0 +1,65 @@
+body {
+    background-image: url(../imagens/FUNDO_POSTAGENS.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo da área de postagens */
+.postes {
+    background-color: rgba(18, 18, 18, 0.95);
+    text-align: center;
+    padding: 30px;
+    border-radius: 12px;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 0 30px rgba(0, 194, 255, 0.25);
+    color: white;
+}
+
+/* Estilo dos inputs, textarea e botão */
+form input, form textarea, form button {
+    display: block;
+    margin: 12px auto;
+    padding: 12px;
+    width: 90%;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+/* Quando focado: destaque neon */
+form input:focus, form textarea:focus {
+    border: 2px solid #00c2ff;
+    background-color: #2a2a2a;
+}
+
+/* Altura flexível da caixa de texto */
+form textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+/* Botão de envio */
+form button {
+    background-color: #00c2ff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #009dcc;
+}

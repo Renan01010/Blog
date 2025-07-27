@@ -11,10 +11,10 @@ CREATE TABLE usuarios (
 -- ESSA É A PARTE DAS POSTAGENS 
 CREATE TABLE postagens (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    titulo VARCHAR(255),
-    texto TEXT,
+    titulo VARCHAR(255) NOT NULL,
+    texto TEXT  NOT NULL,
     imagem VARCHAR(255),
-    indice VARCHAR(100),
+    indice VARCHAR(100) NOT NULL UNIQUE,
     data_postagem TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 

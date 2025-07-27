@@ -1,0 +1,95 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #100c0c;
+    padding: 20px;
+}
+
+/* Container principal dos posts */
+.postess {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.postess:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.postess h2 {
+    font-size: 1.8rem;
+    color: #005f73;
+    margin-bottom: 10px;
+}
+
+.postess p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.postess img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Estilização do formulário de ordenação */
+form {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+form select,
+form input[type="submit"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+form input[type="submit"] {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0074a6;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .postess h2 {
+        font-size: 1.4rem;
+    }
+
+    form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
